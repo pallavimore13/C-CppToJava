@@ -23,3 +23,57 @@ class Main
 		}
 	}
 }
+
+class Main1
+{
+	public static void main(String[] args)
+	{
+		char grade = 'B';
+		
+		switch(grade)
+		{
+			case 'A':
+			System.out.println("Excellent");
+			break;
+			
+			case 'B':
+
+			case 'c':
+			System.out.println("well done");
+			break;
+			
+			case 'D':
+			System.out.println("You Passed");
+			break;
+			
+			case 'F':
+			System.out.println("Better try again");
+			break;
+			
+			default:
+			System.out.println("Invalid grade");
+		}
+		System.out.println("Your grade is" +grade);
+		
+	}
+}
+
+class Main2
+{
+	public static void main(String[] args)
+	{
+		int i;
+		for(i = 0; i<10;i++)
+		{
+			if(i==5 || i == 6){
+				System.out.println("Skipping from display using continue statement" +i);
+			}
+			continue;
+		}
+		System.out.println("\n" +i);
+	}
+}
+
+
+
+
